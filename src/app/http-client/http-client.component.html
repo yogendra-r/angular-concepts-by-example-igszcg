@@ -1,0 +1,9 @@
+<h2>
+  Http Client
+</h2>
+<input [(ngModel)]="user"
+  placeholder="Enter user name"/>
+<button (click)="getUserDetails()">Fetch Details</button>
+<div>
+    {{ userDetails | json }}
+</div>
